@@ -15,16 +15,15 @@
 			$(eid).className = "lightbox " + scheme_class;
 		}
 		
-		var show_code = function(show_elm, event_elm) {
-			$(show_elm).style.display = "block";
-			event_elm.innerHTML = "Hide code";
-			event_elm.onclick = "hide_code('"+show_elm+"', this); return false";
-		}
-		
-		var hide_code = function(show_elm, event_elm) {
-			$(show_elm).style.display = "none";
-			event_elm.innerHTML = "Show code";
-			event_elm.onclick = "show_code('"+show_elm+"', this); return false";
+		var toggle_code = function(show_eid, event_elm) {
+			var show_elm = $(show_eid);
+			if (show_elm.style.display == "none") {
+				show_elm.style.display = "block";
+				event_elm.innerHTML = "Hide code";
+			} else {
+				$(show_elm).style.display = "none";
+				event_elm.innerHTML = "Show code";
+			}
 		}
 	</script>
 </head>
