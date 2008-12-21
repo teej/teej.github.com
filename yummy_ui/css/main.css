@@ -29,8 +29,13 @@ a {
 	float:left;
 }
 
-.example .lightbox a {
+.example .lightbox .default a {
 	text-decoration:underline;
+}
+
+.example .lightbox .dark_scheme {
+	background:#333;
+	color:#fff;
 }
 
 .example .color_switch {
@@ -53,9 +58,10 @@ a {
 }
 
 .highlight {
-	width: 450px;
 	padding: 12px 45px 12px 25px;
 	background: #eee;
 	margin: 15px auto 0;
 	border: 1px solid #ccc;
+	line-height:1.3em;
+	width:350px;
 }
