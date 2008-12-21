@@ -33,7 +33,7 @@ a {
 	text-decoration:underline;
 }
 
-.example .lightbox .dark_scheme {
+.example .lightbox.dark_scheme {
 	background:#333;
 	color:#fff;
 }
