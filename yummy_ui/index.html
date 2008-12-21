@@ -1,8 +1,6 @@
 ---
 layout: yummy_main
 ---
-
-{% for post in site.posts %}
 	<div class="morsel">
 		<div class="example">
 
@@ -26,14 +24,11 @@ layout: yummy_main
 
 		<div id="code_1" style="display:none;">
 			<h2>Html:</h2>
-				{% highlight html %}{% post.title %}{% endhighlight %}
+				{% highlight html %}{% include test.html %}{% endhighlight %}
 
 			<h2>Css:</h2>
-				{% highlight css %}{% post.content %}{% endhighlight %}
+				{% highlight css %}{% include test.css %}{% endhighlight %}
 
 		</div>
 
 	</div>
-{% endfor %}
-
-Hooah
