@@ -12,6 +12,10 @@ h2 {
 	width:450px;
 }
 
+input {
+	font-size:14px;
+}
+
 .content {
 	width: 600px;
 	margin: 0 auto;
@@ -76,7 +80,7 @@ h2 {
 	padding: 8px 45px 2px 25px;
 	background: #eee;
 	margin: 5px auto 0;
-	border: 1px solid #ccc;
+	border: 1px dotted #aaa;
 	line-height:1.3em;
 	width:350px;
 }
