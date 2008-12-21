@@ -1,6 +1,5 @@
 ---
-html: AEYCH TEE
-css: SEE ESS
+title: Blogging Like a Hacker
 ---
 
 Booga

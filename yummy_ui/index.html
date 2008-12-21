@@ -26,14 +26,12 @@ layout: yummy_main
 
 		<div id="code_1" style="display:none;">
 			<h2>Html:</h2>
-				{% highlight html %}{% post.html %}{% endhighlight %}
+				{% highlight html %}{% post.title %}{% endhighlight %}
 
 			<h2>Css:</h2>
-				{% highlight css %}{% post.css %}{% endhighlight %}
+				{% highlight css %}{% post.content %}{% endhighlight %}
 
 		</div>
 
 	</div>
 {% endfor %}
-
-{% include save_or_cancel.html %}
