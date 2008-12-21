@@ -30,12 +30,14 @@ body {
 	float: right;
 	padding: 0;
 	list-style:none;
+	font-size:0.9em;
+	line-height:1.2em;
 }
 
 .example .color_switch .label {
 	border-bottom:1px dotted #ccc;
 	font-weight:bold;
-	font-size:0.8em;
+	margin:0 0 4px;
 }
 
 .highlight {
