@@ -26,8 +26,10 @@ body {
 }
 
 .example .color_switch {
-	width:125px;
-	float:right;
+	width: 125px;
+	float: right;
+	padding: 0;
+	list-style:none;
 }
 
 .highlight {
