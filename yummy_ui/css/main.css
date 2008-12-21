@@ -34,8 +34,13 @@ a {
 }
 
 .example .lightbox.dark_scheme {
+	border: 10px solid #ccc;
 	background:#333;
 	color:#fff;
+}
+
+.example .lightbox.dark_scheme a, .example .lightbox.dark_scheme a:visited {
+	color:#057BFF;
 }
 
 .example .color_switch {
