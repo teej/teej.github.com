@@ -2,4 +2,38 @@
 layout: yummy_main
 ---
 
+{% for post in site.posts %}
+	<div class="morsel">
+		<div class="example">
+
+			<div class="lightbox default" id="lightbox_1">
+				{% include test.html %}
+			</div>
+
+			<ul class="color_switch">
+				<li class="label">Color</li>
+				<li><a href="#" onclick="lightbox_switch_to('lightbox_1', 'default')">Default</a>
+				<li><a href="#" onclick="lightbox_switch_to('lightbox_1', 'dark_scheme')">Yummy</a></li>
+			</ul>
+
+			<div style="clear:both;"></div>
+
+			<ul class="actions">
+				<li><a href="#" onclick="toggle_code('code_1', this);return false">Show code</a></li>
+			</ul>
+
+		</div>
+
+		<div id="code_1" style="display:none;">
+			<h2>Html:</h2>
+				{% highlight html %}{% post.html %}{% endhighlight %}
+
+			<h2>Css:</h2>
+				{% highlight css %}{% post.css %}{% endhighlight %}
+
+		</div>
+
+	</div>
+{% endfor %}
+
 {% include save_or_cancel.html %}
