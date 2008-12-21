@@ -12,10 +12,6 @@ h2 {
 	width:450px;
 }
 
-input {
-	font-size:14px;
-}
-
 .content {
 	width: 600px;
 	margin: 0 auto;
@@ -41,6 +37,10 @@ input {
 
 .example .lightbox.default a {
 	text-decoration:underline;
+}
+
+.example .lightbox input {
+	font-size:14px;
 }
 
 .lightbox.dark_scheme {

@@ -7,8 +7,24 @@
 	<link rel="stylesheet" href="css/highlight.css" type="text/css">
 	<link rel="stylesheet" href="css/main.css" type="text/css">
 	<script>
+		var $ = function(i) {
+			return document.getElementById(i);
+		}
+		
 		var lightbox_switch_to = function(eid, scheme_class) {
-			document.getElementById(eid).className = "lightbox " + scheme_class;
+			$(eid).className = "lightbox " + scheme_class;
+		}
+		
+		var show_code = function(show_elm, event_elm) {
+			$(show_elm).style.display = "block";
+			$(event_elm).innerHTML = "Hide code";
+			$(event_elm).onclick = "hide_code('"+show_elm+"', self); return false";
+		}
+		
+		var hide_code = function(show_elm, event_elm) {
+			$(show_elm).style.display = "none";
+			$(event_elm).innerHTML = "Show code";
+			$(event_elm).onclick = "show_code('"+show_elm+"', self); return false";
 		}
 	</script>
 </head>
