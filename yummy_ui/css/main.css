@@ -18,7 +18,7 @@ body {
 
 .example {
 	width: 250px;
-	padding:25px;
+	padding:12px 25px;
 	border: 10px solid #333;
 	margin: 0 auto;
 	text-align:center;
@@ -28,5 +28,5 @@ body {
 	width:250px;
 	padding:25px;
 	background:#eee;
-	margin:0 auto;
+	margin:15px auto 0;
 }
