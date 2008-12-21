@@ -1,5 +1,37 @@
----
-layout: yummy_main
----
-
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>YummyUI | Web Design Praxis</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="css/highlight.css" type="text/css">
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<script>
+		var $ = function(i) {
+			return document.getElementById(i);
+		}
+		
+		var lightbox_switch_to = function(eid, scheme_class) {
+			$(eid).className = "lightbox " + scheme_class;
+		}
+		
+		var toggle_code = function(show_eid, event_elm) {
+			var show_elm = $(show_eid);
+			if (show_elm.style.display == "none") {
+				show_elm.style.display = "block";
+				event_elm.innerHTML = "Hide code";
+			} else {
+				show_elm.style.display = "none";
+				event_elm.innerHTML = "Show code";
+			}
+		}
+	</script>
+</head>
+<body>
+	<a href="/" class="logo"><img src="images/yummy_ui_logo.png"></a>
+	<div class="content">
+		
 Pretty epic!!!!!
+	</div>
+</body>
+</html>
