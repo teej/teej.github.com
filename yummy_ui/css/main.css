@@ -77,16 +77,17 @@ h2 {
 }
 
 .example .actions {
-	padding: 0;
+	padding: 0 10px;
 	list-style:none;
-	width:320px;
+	width:300px;
 	margin: 0 auto;
 }
 
 .example .actions li {
 	float:left;
-	width:75px;
+	width:100px;
 	border-right:1px dotted #ccc;
+	text-align:center;
 }
 
 .highlight {
