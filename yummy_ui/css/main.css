@@ -29,6 +29,10 @@ a {
 	float:left;
 }
 
+.example .lightbox a {
+	text-decoration:underline;
+}
+
 .example .color_switch {
 	width: 125px;
 	float: right;
