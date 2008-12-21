@@ -16,17 +16,24 @@ body {
 
 .logo img { border:0; }
 
-.example {
+.example .lightbox {
 	width: 250px;
-	padding:25px;
+	padding: 25px;
 	border: 10px solid #333;
-	margin: 0 auto;
-	text-align:center;
+	margin: 0 0 0 140px;
+	text-align: center;
+	float:left;
+}
+
+.example .color_switch {
+	width:125px;
+	float:right;
 }
 
 .highlight {
-	width:250px;
-	padding:12px 35px;
-	background:#eee;
-	margin:15px auto 0;
+	width: 250px;
+	padding: 12px 45px 12px 25px;
+	background: #eee;
+	margin: 15px auto 0;
+	border: 1px solid #ccc;
 }
