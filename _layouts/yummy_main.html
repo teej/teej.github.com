@@ -17,6 +17,7 @@
 		
 		var show_code = function(show_elm, event_elm) {
 			$(show_elm).style.display = "block";
+			alert(event_elm.id);
 			event_elm.innerHTML = "Hide code";
 			event_elm.onclick = "hide_code('"+show_elm+"', self); return false";
 		}
