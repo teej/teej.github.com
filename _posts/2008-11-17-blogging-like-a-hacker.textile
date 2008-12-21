@@ -1,6 +1,13 @@
----
-title: Blogging Like a Hacker
-test: abc123
----
+.content {
+	width: 600px;
+	margin: 0 auto;
+}
 
-Booga
+.logo {
+	display: block;
+	width: 225px;
+	height: 85px;
+	margin: 25px auto;
+}
+
+.logo img { border:0; }

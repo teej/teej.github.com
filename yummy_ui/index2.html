@@ -3,6 +3,5 @@ layout: yummy_main
 ---
 
 {% for post in site.posts %}
-title:  {{ post.test }}<br>
-{{ post.content }}
+{% highlight css %}{{ post.content }}{% endhighlight %}
 {% endfor %}
