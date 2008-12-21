@@ -32,6 +32,12 @@ body {
 	list-style:none;
 }
 
+.example .color_switch .label {
+	border-bottom:1px dotted #ccc;
+	font-weight:bold;
+	font-size:0.8em;
+}
+
 .highlight {
 	width: 250px;
 	padding: 12px 45px 12px 25px;
