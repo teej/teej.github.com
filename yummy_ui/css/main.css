@@ -18,7 +18,7 @@ body {
 
 .example {
 	width: 250px;
-	padding:12px 35px;
+	padding:25px;
 	border: 10px solid #333;
 	margin: 0 auto;
 	text-align:center;
@@ -26,7 +26,7 @@ body {
 
 .highlight {
 	width:250px;
-	padding:25px;
+	padding:12px 35px;
 	background:#eee;
 	margin:15px auto 0;
 }
