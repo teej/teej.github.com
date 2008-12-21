@@ -76,6 +76,19 @@ h2 {
 	margin-bottom:3px;
 }
 
+.example .actions {
+	padding: 0;
+	list-style:none;
+	width:320px;
+	margin: 0 auto;
+}
+
+.example .actions li {
+	float:left;
+	width:75px;
+	border-right:1px dotted #ccc;
+}
+
 .highlight {
 	padding: 8px 45px 2px 25px;
 	background: #eee;
