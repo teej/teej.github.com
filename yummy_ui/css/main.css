@@ -11,15 +11,21 @@ body {
 	display: block;
 	width: 225px;
 	height: 85px;
-	margin: 25px auto 0;
+	margin: 25px auto;
 }
 
 .logo img { border:0; }
 
 .example {
 	width: 250px;
-	height: 100px;
 	padding:25px;
 	border: 10px solid #333;
 	margin: 0 auto;
+	text-align:center;
+}
+
+.highlight {
+	width:250px;
+	padding:25px;
+	background:#eee;
 }
