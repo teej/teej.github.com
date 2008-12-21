@@ -8,10 +8,7 @@ a {
 
 h2 {
 	font-size:1em;
-	margin-bottom:0;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:15px;
+	margin:20px auto 0;
 	width:450px;
 }
 
@@ -42,14 +39,18 @@ h2 {
 	text-decoration:underline;
 }
 
-.example .lightbox.dark_scheme {
+.dark_scheme {
 	border: 10px solid #ccc;
 	background:#333;
 	color:#fff;
 }
 
-.example .lightbox.dark_scheme a, .example .lightbox.dark_scheme a:visited {
+.dark_scheme a, .dark_scheme a:visited {
 	color:#057BFF;
+}
+
+.dark_scheme a:hover {
+	text-decoration:underline;
 }
 
 .example .color_switch {
