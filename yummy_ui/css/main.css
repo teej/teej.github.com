@@ -35,21 +35,21 @@ h2 {
 	float:left;
 }
 
-.example .lightbox .default a {
+.example .lightbox.default a {
 	text-decoration:underline;
 }
 
-.dark_scheme {
+.lightbox.dark_scheme {
 	border: 10px solid #ccc;
 	background:#333;
 	color:#fff;
 }
 
-.dark_scheme a, .dark_scheme a:visited {
+.lightbox.dark_scheme a, .lightbox.dark_scheme a:visited {
 	color:#057BFF;
 }
 
-.dark_scheme a:hover {
+.lightbox.dark_scheme a:hover {
 	text-decoration:underline;
 }
 
