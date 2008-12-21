@@ -80,7 +80,7 @@ h2 {
 	padding: 0 10px;
 	list-style:none;
 	width:300px;
-	margin: 0 auto;
+	margin: 12px auto 0;
 }
 
 .example .actions li {
