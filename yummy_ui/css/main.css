@@ -37,7 +37,11 @@ body {
 .example .color_switch .label {
 	border-bottom:1px dotted #ccc;
 	font-weight:bold;
-	margin:0 0 4px;
+	margin-bottom:6px;
+}
+
+.example .color_switch li {
+	margin-bottom:3px;
 }
 
 .highlight {
