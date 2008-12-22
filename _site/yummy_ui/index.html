@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>YummyUI | Web Design Praxis</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="css/highlight.css" type="text/css">
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<script>
+		var $ = function(i) {
+			return document.getElementById(i);
+		}
+		
+		var lightbox_switch_to = function(eid, scheme_class) {
+			$(eid).className = "lightbox " + scheme_class;
+		}
+		
+		var toggle_code = function(show_eid, event_elm) {
+			var show_elm = $(show_eid);
+			if (show_elm.style.display == "none") {
+				show_elm.style.display = "block";
+				event_elm.innerHTML = "Hide code";
+			} else {
+				show_elm.style.display = "none";
+				event_elm.innerHTML = "Show code";
+			}
+		}
+	</script>
+</head>
+<body>
+	<a href="/" class="logo"><img src="images/yummy_ui_logo.png"></a>
+	<div class="content">
+			<div class="morsel">
+		<div class="example">
+
+			<div class="lightbox default" id="lightbox_1">
+				<input type="button" value="Save">
+ or <a href="#">cancel</a>
+			</div>
+
+			<ul class="color_switch">
+				<li class="label">Color</li>
+				<li><a href="#" onclick="lightbox_switch_to('lightbox_1', 'default')">Default</a>
+				<li><a href="#" onclick="lightbox_switch_to('lightbox_1', 'dark_scheme')">Yummy</a></li>
+			</ul>
+
+			<div style="clear:both;"></div>
+
+			<ul class="actions">
+				<li><a href="#" onclick="toggle_code('code_1', this);return false">Show code</a></li>
+			</ul>
+
+		</div>
+
+		<div id="code_1" style="display:none;">
+			<h2>Html:</h2>
+				<div>
+  <pre>
+    <code class='html'>&lt;input type=&quot;button&quot; value=&quot;Save&quot;&gt;
+ or &lt;a href=&quot;#&quot;&gt;cancel&lt;/a&gt;</code>
+  </pre>
+</div>
+
+
+			<h2>Css:</h2>
+				<div>
+  <pre>
+    <code class='css'>input {
+	font-size:14px;
+}</code>
+  </pre>
+</div>
+
+
+		</div>
+
+	</div>
+
+	</div>
+</body>
+</html>
