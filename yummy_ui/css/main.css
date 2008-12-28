@@ -28,15 +28,15 @@ h2 {
 
 .lightbox_wrap {
 	border: 10px solid #222;
+	width: 250px;
+	margin: 0 0 0 140px;
+	float:left;
 }
 
 .example .lightbox {
-	width: 250px;
 	padding: 25px;
-	margin: 0 0 0 140px;
 	border: 1px solid #404040;
 	text-align: center;
-	float:left;
 }
 
 .example .lightbox.default a {
