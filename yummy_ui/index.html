@@ -6,7 +6,7 @@ layout: yummy_main
 			
 			<div class="lightbox_wrap">
 				<div class="lightbox default" id="lightbox_1">
-					{% include html/save_or_cancel %}
+					{% include save_or_cancel/default.html %}
 				</div>
 			</div>
 
@@ -28,10 +28,10 @@ layout: yummy_main
 
 		<div id="code_1" style="display:none;">
 			<h2>Html:</h2>
-				{% highlight html %}{% include html/save_or_cancel %}{% endhighlight %}
+				{% highlight html %}{% include save_or_cancel/default.html %}{% endhighlight %}
 
 			<h2>Css:</h2>
-				{% highlight css %}{% include css/save_or_cancel %}{% endhighlight %}
+				{% highlight css %}{% include save_or_cancel/default.css %}{% endhighlight %}
 
 		</div>
 
