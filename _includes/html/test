@@ -1,2 +1,2 @@
-<input type="button" value="Save">
- or <a href="#">cancel</a>
+<div class="input_wrap"><input type="button" value="Save"></div>
+ or <a href="?dskljhf" onclick="return false">cancel</a>

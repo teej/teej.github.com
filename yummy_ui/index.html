@@ -3,15 +3,19 @@ layout: yummy_main
 ---
 	<div class="morsel">
 		<div class="example">
-
-			<div class="lightbox default" id="lightbox_1">
-				{% include html/test %}
+			
+			<div class="lightbox_wrap">
+				<div class="lightbox default" id="lightbox_1">
+					{% include html/test %}
+				</div>
 			</div>
 
 			<ul class="color_switch">
 				<li class="label">Color</li>
-				<li><a href="#" onclick="lightbox_switch_to('lightbox_1', 'default')">Default</a>
-				<li><a href="#" onclick="lightbox_switch_to('lightbox_1', 'dark_scheme')">Yummy</a></li>
+				<li><a href="#" onclick="lightbox_switch_to('lightbox_1', 'default'); return false">Default</a>
+				<li><a href="#" onclick="lightbox_switch_to('lightbox_1', 'dark_scheme'); return false">Yummy</a></li>
+				<li><a href="#" onclick="lightbox_switch_to('lightbox_1', 'signals'); return false">37Signals</a></li>
+				<li><a href="#" onclick="lightbox_switch_to('lightbox_1', 'linkedin'); return false">LinkedIn</a></li>
 			</ul>
 
 			<div style="clear:both;"></div>

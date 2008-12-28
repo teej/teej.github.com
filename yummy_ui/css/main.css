@@ -26,11 +26,15 @@ h2 {
 
 .logo img { border:0; }
 
+.lightbox_wrap {
+	border: 10px solid #222;
+}
+
 .example .lightbox {
 	width: 250px;
 	padding: 25px;
-	border: 10px solid #333;
 	margin: 0 0 0 140px;
+	border: 1px solid #404040;
 	text-align: center;
 	float:left;
 }
@@ -42,6 +46,12 @@ h2 {
 .example .lightbox input {
 	font-size:14px;
 }
+
+.input_wrap {
+	display:inline;
+}
+
+/* Dark Scheme */
 
 .lightbox.dark_scheme {
 	border: 10px solid #ccc;
@@ -56,6 +66,67 @@ h2 {
 .lightbox.dark_scheme a:hover {
 	text-decoration:underline;
 }
+
+/* 37s */
+
+.lightbox.signals {
+	border: 10px solid #333;
+	background:#fff;
+	color:#000;
+}
+
+.lightbox.signals a, .lightbox.signals a:visited {
+	color:#f00;
+	text-decoration:underline;
+	padding: 1px;
+}
+
+.lightbox.signals a:hover {
+	background-color:#f00;
+	color:#fff;
+}
+
+
+/* LinkedIn */
+
+.lightbox.linkedin {
+	border: 10px solid #333;
+	background:#fff;
+	color:#000;
+}
+
+.lightbox.linkedin input {
+	background-color:#3399CC;
+	border:0;
+	border-top:1px solid #CAD7E9;
+	border-left:1px solid #CAD7E9;
+	font-weight:bold;
+	color:#fff;
+	padding:2px 8px 1px;
+	font-size:12px;
+}
+
+.lightbox.linkedin .input_wrap {
+	border:1px solid #006699;
+	padding:3px 0 1px;
+}
+
+.lightbox.linkedin a {
+	color:#3399CC;
+	text-decoration:none;
+}
+
+.lightbox.linkedin a:visited {
+	color:#7495C6;
+}
+
+.lightbox.linkedin a:hover {
+	text-decoration:underline;
+}
+
+
+
+
 
 .example .color_switch {
 	width: 125px;
