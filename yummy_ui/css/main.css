@@ -54,7 +54,6 @@ h2 {
 /* Dark Scheme */
 
 .lightbox.dark_scheme {
-	border: 10px solid #ccc;
 	background:#333;
 	color:#fff;
 }
@@ -70,7 +69,6 @@ h2 {
 /* 37s */
 
 .lightbox.signals {
-	border: 10px solid #333;
 	background:#fff;
 	color:#000;
 }
@@ -90,7 +88,6 @@ h2 {
 /* LinkedIn */
 
 .lightbox.linkedin {
-	border: 10px solid #333;
 	background:#fff;
 	color:#000;
 }
